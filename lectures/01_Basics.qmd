@@ -22,7 +22,11 @@ bibliography: references.bib
 
 ## Reproducing these lecture notes
 
-Quarto markdown `01_Basics.qmd`
+Source code: `01_Basics.qmd` (quarto markdown) at https://github.com/davidrusi/statcomp
+
+I recommend [GitHub Desktop](https://desktop.github.com) to pull the latest changes.
+See the README on how to sync your local changes with the repository
+
 
 Required R packages
 
