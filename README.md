@@ -17,5 +17,22 @@ If you're new to GitHub, the easiest option is to click on "Code" and download a
 4. You now have a copy of the statcomp repository in your computer. You can open and view the files normally.
 5. To update the repository to the latest contents I posted there, within GitHub Desktop click on "Fetch origin". If there are any updates you will see an option "Pull origin", click on it and you're done!
 
-Note: do not edit the repository files in your computer. If you do, next time they're updated your edits will clash with mine. If you wish to edit them, the easiest option is that you copy them in a separate directory in your computer that is not synced with GitHub (alternatively, if you're experience with GitHub you can create your own fork)
+Important: if you edit the downloaded files in your computer, for example to add your own annotations,
+there will be conflicts when you next try to update the notes with my latest changes at GitHub.
+GitHub provides a simple way to manage different versions of files, where you can keep your annotations and still update with my latest changes.
 
+Step 1: In GitHub Desktop, click the Current Branch button and select New Branch. Name it my-notes.
+
+Step 2: Select Current branch -> my-notes. Edit the files adding your desired comments, this will only affect your local my-notes branch.
+
+Step 3: To download my updates:
+
+  - Switch back to the main branch. You'll get a message "You have changes on this branch". Select "Leave my changes on my-notes", and click "Switch branch"
+
+  - Click Fetch origin and Pull origin.
+
+  - Switch back to the my-notes branch.
+
+  - Go to Branch -> Merge into current branch and select main (or Branch -> Update from main)
+  
+  - Resolve any conflicts that may arise (GitHub Desktop will guide you through this process)
